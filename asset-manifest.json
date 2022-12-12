@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/united24/static/css/main.8d07302c.css",
+    "main.js": "/united24/static/js/main.59bdfbed.js",
+    "static/media/zelensky.png": "/united24/static/media/zelensky.4d94d52ce2ea87452c97.png",
+    "static/media/whyu24.png": "/united24/static/media/whyu24.77b19ae6327ad17f986f.png",
+    "static/media/intro.png": "/united24/static/media/intro.94d75268648e1869f7ef.png",
+    "static/media/end.jpg": "/united24/static/media/end.018b0554d5e203113d6a.jpg",
+    "static/media/services.png": "/united24/static/media/services.a26eebfd9314042ae52a.png",
+    "static/media/impact.png": "/united24/static/media/impact.315b5377743fedacb835.png",
+    "static/media/game.jpg": "/united24/static/media/game.dca49b60b76e2633f32a.jpg",
+    "index.html": "/united24/index.html",
+    "main.8d07302c.css.map": "/united24/static/css/main.8d07302c.css.map",
+    "main.59bdfbed.js.map": "/united24/static/js/main.59bdfbed.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8d07302c.css",
+    "static/js/main.59bdfbed.js"
+  ]
+}
