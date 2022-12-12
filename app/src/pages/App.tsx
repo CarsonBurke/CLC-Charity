@@ -1,8 +1,6 @@
 import React from 'react'
 import { Slide } from '../components/Slide'
 import { slides } from '../config'
-import logo from '../images/logo.png'
-import stock1 from '../images/stock1.jpg'
 import './app.css'
 
 function generateSlides() {

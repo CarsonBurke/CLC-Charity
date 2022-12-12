@@ -1,17 +1,4 @@
-import stock1 from './images/stock1.jpg'
-import stock2 from './images/stock2.jpg'
-import hero from './images/heroBG.png'
-import eagle from './images/eagle.png'
-import basicMechanics from './images/basicMechanics.png'
-import qubitChip from './images/qubitChip.png'
-import qubit from './images/qubit.png'
-import systemOne from './images/systemOne.png'
-import quantumComputer from './images/quantumComputer.png'
-import quantomComputerBG from './images/quantumComputerBG.png'
-import science from './images/science.png'
-import greenEnergy from './images/greenEnergy.png'
-import government from './images/government.jpg'
-import future from './images/future.png'
+import React from 'react'
 
 export interface SlideType {
     title: string
@@ -22,17 +9,61 @@ export interface SlideType {
     BGImage: string
     image?: string
     align: 'center' | 'left' | 'right'
-    theme?: 'glassBlack' | 'glassWhite'
+    theme?: 'glassBlack' | 'glassWhite' | 'ukraineBlue' | 'ukraineYellow'
 }
 
 export const slides: SlideType[] = [
     {
-        title: 'Quantum Computing',
-        text: `By Nathan and Carson`,
-        BGImage: hero,
+        title: 'United 24',
+        text: `Supporting Ukraine against annihilation`,
+        BGImage: require('./images/intro.png'),
         align: 'center',
-        theme: 'glassWhite',
+        theme: 'ukraineBlue',
     },
+    {
+        title: 'About U24',
+        text: `Government sanctioned charity to assist Ukraine in their defence against Russia`,
+        BGImage: require('./images/zelensky.png'),
+        align: 'left',
+        theme: 'ukraineYellow',
+    },
+    {
+        title: 'Services',
+        text: `Money goes to Ukraine government to fund defence, medical aid and rebuilding`,
+        BGImage: require('./images/services.png'),
+        align: 'right',
+        theme: 'ukraineBlue',
+    },
+    {
+        title: 'Impact',
+        text: `Has received 200 million dollars since the war started, funding paramount needs`,
+        BGImage: require('./images/impact.png'),
+        align: 'center',
+        theme: 'ukraineYellow',
+    },
+    {
+        title: 'Why dondate to U24?',
+        text: `Defend a democracy under attack, stop Russia's tyranny, support a virtious charity`,
+        BGImage: require('./images/whyu24.png'),
+        align: 'left',
+        theme: 'ukraineBlue',
+    },
+    {
+        title: 'War simulation',
+        text: `Let's get a first-hand understanding of why U24 is important`,
+        BGImage: require('./images/game.jpg'),
+        align: 'right',
+        theme: 'ukraineYellow',
+    },
+    {
+        title: 'The end',
+        text: `Thank you for engaging, donate to United 24 now. By AJ, Owen, Carson and Finn Freezeman`,
+        BGImage: require('./images/end.jpg'),
+        align: 'center',
+        theme: 'ukraineBlue',
+    },
+    
+    /* 
     {
         title: 'Basic mechanics',
         text: `Simply put, the study of quantum mechanics in relation to quantum computer R&D. Includes thoery, optimizing the computers, making them cheaper, mass producible, and stable`,
@@ -106,4 +137,5 @@ export const slides: SlideType[] = [
         align: 'center',
         theme: 'glassWhite',
     },
+ */
 ]
