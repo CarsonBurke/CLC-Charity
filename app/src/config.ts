@@ -16,6 +16,7 @@ export const slides: SlideType[] = [
     {
         title: 'United 24',
         text: `Supporting Ukraine against annihilation`,
+        image: require('./images/logo.png'),
         BGImage: require('./images/intro.png'),
         align: 'center',
         theme: 'ukraineBlue',
